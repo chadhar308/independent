@@ -1,0 +1,99 @@
+.background-img{
+    overflow-x: hidden;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: $hp $hp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $hundred + 500px;
+    width: $hp;
+    .content{
+        height: $hundred + 250px;
+        // border: 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 39%;
+        margin-bottom: $hundred - $twenty;
+        div{
+
+            > h6{
+                font-size: $ten + 4px;
+                font-weight: bold;
+                animation: translate 1s;
+            }
+            @keyframes translate {
+                0%{
+                    transition: all 1s;
+                    position: relative;
+                    top: 30px;
+                    opacity: 0;
+                }
+                50%{
+                    opacity: .5;
+                }
+                100%{
+                    position: relative;
+                    top: 0px;
+                    opacity: 1;
+                }
+            }
+            > h1{
+                width: $hp - 30%;
+                font-weight: 400;
+                span{
+                    font-weight: bolder;
+                }
+            }
+            p{
+                span{
+                    font-weight: 600;
+                    margin-left: $ten;
+                }
+            }
+        }
+    }
+    .package{
+        height: 130px;
+        width: 130px;
+        align-self: flex-end;
+        margin-bottom: 170px;
+        position: relative;
+        left: 20px;
+        border-radius: 50%;
+        // border: 2px solid;
+        .arrow{
+            position: absolute;
+            top: 44px;
+            right: 12px;
+            animation: moving 1.4s infinite;
+        }
+        @keyframes moving {
+            0%{
+                top: 44px;
+            }
+            50%{
+                top: 38px;
+            }
+        }
+    }
+    .form{
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        // border: 2px solid;
+        .input-width{
+            width: $hp - 12%;
+        }
+        .input-color{
+            box-shadow: none;
+            outline: none;
+            background-color: $lg;
+            border: none;
+        }
+    }
+}
+
+    // Responsive
+@import '../MediaQuery/secondSectionMediaQuery/secondSectionMediaQuery';

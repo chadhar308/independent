@@ -1,0 +1,11 @@
+@media(max-width: 992px){
+    .interest{
+        .inter:nth-of-type(2){
+            display: flex;
+            justify-content: center;
+        }
+        .form{
+            width: 100% !important;
+        }
+    }
+}

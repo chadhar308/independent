@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+
+@import './components/variables';
+@import './components/Navigation/nav';
+@import './components/Second-Section/secondSection';
+@import './components/About/about';
+@import './components/Offers/offer';
+@import './components/Achievements/achievements';
+@import './components/Interest/interest';
+@import './components/HappyClients/happyClients';
+@import './components/Guidance//guidance';
+@import './components/Map/map';
+@import './components/Footer/footer';

@@ -1,0 +1,25 @@
+nav{
+    overflow-x: hidden;
+    .call{
+        height: $thirty;
+        width: $hundred + $eighty;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: $black;
+        p{
+            margin-top: $ten + 8px;
+        }
+    }
+    .nav-media{
+        i{
+            margin-top: 7px;
+        }
+        p{
+            margin-top: $thirty !important;
+        }
+    }
+}
+
+    // Responsive
+@import '../MediaQuery/NavigationMediaQuery/navigation-media-query'

@@ -1,0 +1,50 @@
+.container2{
+    // overflow-x: hidden;
+    height: auto;
+    margin-bottom: 70px;
+}
+.interest{
+    padding-top: 40px;
+    div{
+        #head{
+            color: $slateblue;
+        }
+
+    }
+    .inter{
+        // border: 2px solid;
+        p:nth-of-type(2){
+            padding-bottom: 80px;
+        }
+        p{
+            margin-top: 30px;
+        }
+        .form{
+            height: 450px;
+            position: relative;
+            // top: 20px;  
+            // border: 2px solid red;
+            // width: 60%;
+            background-color: $lg;
+            .bottom{
+                height: 80px;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                background-color: $slateblue;
+                h6{
+                    position: relative;
+                    top: 10px;
+                    left: 20px;        
+                }
+                h1{
+                    position: relative;
+                    left: 20px;
+                }
+            }
+        }
+    }
+}
+
+    // Responsive
+@import '../MediaQuery/InterestMediaQuery/interestMediaQuery';

@@ -1,0 +1,28 @@
+@media(max-width: 1035px){
+    .offers{
+        // height: auto !important;
+        .offer{
+            flex-direction: column;
+            .offer-info{
+                align-items: center !important;
+                .desc{
+                    text-align: center !important;
+                }
+            }
+            .offer-info-3{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media(max-width: 426px){
+    .offers{
+        .offer{
+            .offer-info-2{
+                img{
+                   width: 80% !important;
+                }
+            }
+        }
+    }
+}

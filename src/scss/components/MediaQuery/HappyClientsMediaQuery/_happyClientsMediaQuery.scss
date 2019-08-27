@@ -1,0 +1,22 @@
+@media(max-width: 1024px){
+    .clients{
+        margin-top: 0 !important;
+        flex-direction: column;
+        // border: 2px solid;
+        align-items: center;
+        .client{
+            width: 70% !important;
+            margin-top: 40px;
+        }
+    }
+}
+@media(max-width: 425px){
+    .client-2{
+        height: 650px !important;
+    }
+}
+@media(max-width: 320px){
+    .client-2{
+        height: 700px !important;
+    }
+}

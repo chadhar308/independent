@@ -1,0 +1,30 @@
+@media(max-width: 992px){
+    .achievements{
+        .achievementInfos{
+            width: 100%;
+            flex-direction: column !important;
+            align-items: center !important;
+            .achievementInfo:nth-of-type(1){
+                left: 0% !important;
+                text-align: center;
+                width: 100%;
+                
+                p{
+                    margin: auto;
+                    width: 75% !important;
+                }
+                p:nth-of-type(2), p:nth-of-type(3){
+                    text-align: center;
+                    
+                }
+            }
+            .achievementInfo{
+                
+                width: 75%;
+                img{
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.achievements{
+    overflow-x: hidden;
+    height: auto;
+    // background-color: yellow;
+    .achievementInfos{
+        // width: 100%;
+        height: auto;
+        // background-color: red;
+        display: flex;
+        justify-content: space-around;
+        // align-items: center;
+        .achievementInfo:nth-of-type(1){
+            position: relative;
+            left: 5%;
+            p:nth-of-type(2), p:nth-of-type(3){
+                margin-top: 30px;
+                width: 100%;
+                text-align: justify;
+            }
+            P{
+                width: 70% !important;
+
+            }
+        }
+        .achievementInfo{
+            // height: auto;
+            width: 40%;
+            // border: 2px solid;
+            img{
+                margin-top: 30px;
+                width: 100%;
+            }
+        }
+    }
+    .ach_Head{
+        color: $slateblue;
+    }
+}
+
+    // Responsive
+@import '../MediaQuery/AchievementsMediaQuery/achievementsMediaQuery';

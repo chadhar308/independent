@@ -1,0 +1,36 @@
+
+@media(max-width: 787px){
+    .about{
+        height: auto !important;
+        .services{
+            flex-direction: column !important;
+            height: auto !important;
+        }
+        .aboutOurCompany{
+            flex-direction: column !important;
+            height: auto !important;
+            .aboutInfoMedia{
+                height: auto !important;
+                width: 100% !important;
+                text-align: center !important;
+            }
+            .aboutImgMedia{
+                width: 100% !important;
+                // height: 100% !important;
+                // position: absolute;
+                height: 300px !important;
+                // top: 0 !important;
+                img{
+                    height: 100% !important;
+                    top: 0 !important;
+                }
+            }
+            .aboutInfo{
+                .about-content{
+                    margin-left: 0 !important;
+                    height: auto !important;
+                }
+            }
+        }
+    }
+}
